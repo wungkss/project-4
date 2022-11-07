@@ -1,3 +1,8 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 *{
     padding: 0;
     margin: 0;
@@ -50,6 +55,7 @@
 .main h1{
     font-size: 4rem;
     font-weight: 700;
+    /* margin-top: 500px; */
 }
 .btn1{
     height: 45px;
@@ -118,4 +124,12 @@ transition: 0.5s;
 }
 #secc {
     background-image: url("image/birbo.jpeg") no;
+}
+
+/* media query */
+@media screen and(min-width:726px){
+    .main{
+        width: auto;
+        height: auto;
+    }
 }
